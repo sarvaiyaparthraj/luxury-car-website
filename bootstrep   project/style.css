@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f7f7f7;
+}
+
+.luxury-nav {
+  background: #000;
+}
+
+.logo-gold {
+  color: #d4af37;
+  letter-spacing: 2px;
+}
+
+
+.hero-carousel img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 40%;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+
+.service-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.price {
+  color: #d4af37;
+  font-weight: 600;
+}
+
+
+.luxury-btn {
+  background: black;
+  color: #d4af37;
+  border: none;
+}
+
+.luxury-btn:hover {
+  background: #d4af37;
+  color: black;
+}
+
+
+.luxury-footer {
+  background: #000;
+  color: white;
+  padding: 50px 0;
+}
+
+.luxury-footer ul {
+  list-style: none;
+  padding: 0;
+}
